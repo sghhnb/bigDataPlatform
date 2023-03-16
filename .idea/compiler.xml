@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="midPlatform" />
+        <module name="searchPlatform" />
+        <module name="algorithmPlatform" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="algorithmPlatform" target="1.8" />
+      <module name="bigDataPlatform" target="1.8" />
+      <module name="midPlatform" target="1.8" />
+      <module name="searchplatform" target="1.8" />
+      <module name="searchPlatform" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="algorithmPlatform" options="-parameters" />
+      <module name="bigDataPlatform" options="" />
+      <module name="midPlatform" options="-parameters" />
+      <module name="searchPlatform" options="-parameters" />
+      <module name="searchplatform" options="-parameters" />
+    </option>
+  </component>
+</project>
