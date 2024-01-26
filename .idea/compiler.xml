@@ -13,11 +13,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="algorithmPlatform" target="1.8" />
-      <module name="bigDataPlatform" target="1.8" />
-      <module name="midPlatform" target="1.8" />
       <module name="searchplatform" target="1.8" />
-      <module name="searchPlatform" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
