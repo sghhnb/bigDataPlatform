@@ -1,5 +1,8 @@
 package com.Entity;
 
+import com.baomidou.mybatisplus.annotation.TableName;
+
+@TableName("tbl_mid")
 public class MidEntity {
 
     int id;
